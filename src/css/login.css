@@ -5,7 +5,7 @@
 .loginForm
 {   
     margin:auto;
-    margin-top:30px;
+    margin-top:22vh;
     margin-bottom:30px;
     width:700px;
     height:250px;
@@ -15,6 +15,7 @@
     padding-bottom:25px;
     display:flex;
     flex-direction:column;
+    margin-bottom:22vh;
 
 }
 
