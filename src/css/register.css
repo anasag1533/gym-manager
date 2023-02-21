@@ -1,0 +1,100 @@
+.register
+{
+    overflow: hidden;
+    padding:30px;
+    background:#262626;
+}
+
+.forms
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    
+}
+
+.regForm
+{
+    width:1500px;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+.formTitle
+{
+    color:#07a149;
+    font-size:24px;
+}
+.registerInputHalf
+{
+    width:200px;
+    margin:15px;
+}
+.registerInputFull
+{
+    width:430px;
+    margin:15px;
+}
+
+.part1
+{   
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    margin-left:150px;
+}
+.nextButton
+{
+    width:430px;
+    margin:15px;
+}
+
+.registerInputHalfRegister
+{   
+    padding:2px;
+    padding-left:15px;
+    color:white;
+    background:none;
+    border:none;
+    border-bottom:solid white 1px;
+    border-left:solid white 1px;
+    font-size:16px;
+    margin:5px;
+    width:400px;
+}
+
+.registerInputFullRegister
+{   
+    padding:5px;
+    padding-left:15px;
+    color:white;
+    background:none;
+    border:none;
+    border-bottom:solid white 1px;
+    border-left:solid white 1px;
+    font-size:16px;
+    margin:5px;
+    width:810px;
+}
+.registerInputHalfRegister:hover,.registerInputFullRegister:hover
+{
+    background:#212121;
+    transition:all 0.3s;
+}
+
+.regBButton
+{
+    color:#07a149;
+    border:solid 1px #07a149;
+    width:60%;
+    margin-top:50px;
+    margin-left:100px;
+    font-size:24px;
+    background:none;
+}
+.regBButton:hover
+{
+    color:white;
+    background:#07a149;
+    transition:all 0.3s;
+}

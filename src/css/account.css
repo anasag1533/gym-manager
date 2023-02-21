@@ -1,0 +1,159 @@
+.userInfo
+{
+    padding:5px; 
+    padding-top:15px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.Account
+{   
+    min-height:700px;
+    background:#212121;
+}
+
+.userTitle
+{
+    color:white;
+    font-size:24px;
+}
+.logoutButton
+{
+    all:unset;
+    color:#07a149;
+    border:solid #07a149 1px;
+    width:250px;
+    text-align:center;
+    font-size:24px;
+}
+.logoutButton:hover
+{
+    color:white;
+    background:#07a149;
+    transition:all 0.3s;
+}
+
+.suspendButton
+{
+    all:unset;
+    color:#8f1139;
+    border:solid #8f1139 1px;
+    width:250px;
+    text-align:center;
+    font-size:24px;
+}
+.suspendButton:hover
+{
+    color:white;
+    background:#8f1139;
+    transition:all 0.3s;
+}
+.profileImg
+{
+    border:solid 1px #07a149;
+    border-radius:100px;
+    padding:5px;
+}
+.Account
+{
+    
+}
+
+.middleDetails
+{
+    display:flex;
+    flex-direction:column;
+}
+.businessDetails
+{
+    margin:auto;
+    align-items: center;
+    margin-top:50px;
+    display:flex;
+    margin-left:50px;
+    margin-right:50px;
+    min-height:300px;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.businessDetails2
+{
+    margin:auto;
+    align-items: center;
+    margin-top:50px;
+    display:flex;
+    margin-left:50px;
+    margin-right:50px;
+    min-height:300px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+
+}
+.detailTitle
+{
+    color:#07a149;
+    font-size:26px;
+}
+
+.detail
+{
+    color:white;
+    font-size:24px;
+}
+.subCard
+{
+    padding:15px;
+    border-bottom: solid .5px white;
+    border-top:solid .5px black;
+    background:#262626;
+    margin:5px;
+    width:380px;
+}
+.ButtonsAccount
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction:column;
+}
+
+.logoutButton2
+{
+    all:unset;
+    color:#07a149;
+    border:solid #07a149 1px;
+    width:250px;
+    text-align:center;
+    font-size:24px;
+    margin-top:10px;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.logoutButton2:hover
+{
+    color:white;
+    background:#07a149;
+    transition:all 0.3s;
+}
+
+.logoutAlert2
+{
+    all:unset;
+    color:#8f1139;
+    border:solid #8f1139 1px;
+    width:250px;
+    text-align:center;
+    font-size:24px;
+    margin-top:10px;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.logoutAlert2:hover
+{
+    color:white;
+    background:#8f1139;
+    transition:all 0.3s;
+}
